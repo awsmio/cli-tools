@@ -29,6 +29,7 @@ USAGE
 # Commands
 <!-- commands -->
 * [`awsm base64 INPUT`](#awsm-base64-input)
+* [`awsm crypto INPUT`](#awsm-crypto-input)
 * [`awsm help [COMMAND]`](#awsm-help-command)
 
 ## `awsm base64 INPUT`
@@ -49,6 +50,24 @@ ALIASES
 ```
 
 _See code: [src/commands/base64.ts](https://github.com/awsmio/awsm-cli/blob/v0.0.1/src/commands/base64.ts)_
+
+## `awsm crypto INPUT`
+
+Hash the provided input
+
+```
+USAGE
+  $ awsm crypto INPUT
+
+OPTIONS
+  -h, --help  show CLI help
+
+ALIASES
+  $ awsm md5
+  $ awsm sha1
+```
+
+_See code: [src/commands/crypto.ts](https://github.com/awsmio/awsm-cli/blob/v0.0.1/src/commands/crypto.ts)_
 
 ## `awsm help [COMMAND]`
 
