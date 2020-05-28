@@ -28,28 +28,7 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`awsm hello [FILE]`](#awsm-hello-file)
 * [`awsm help [COMMAND]`](#awsm-help-command)
-
-## `awsm hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ awsm hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ awsm hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/awsmio/awsm-cli/blob/v0.0.1/src/commands/hello.ts)_
 
 ## `awsm help [COMMAND]`
 
