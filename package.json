@@ -32,7 +32,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/awsmio/awsm-cli",
+  "homepage": "https://github.com/awsmio/cli-tools",
   "keywords": [
     "oclif"
   ],
