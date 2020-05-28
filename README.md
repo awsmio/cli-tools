@@ -28,7 +28,27 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`awsm base64 INPUT`](#awsm-base64-input)
 * [`awsm help [COMMAND]`](#awsm-help-command)
+
+## `awsm base64 INPUT`
+
+Base64 encode/decode the provided input
+
+```
+USAGE
+  $ awsm base64 INPUT
+
+OPTIONS
+  -d, --decode  Decode the input
+  -e, --encode  Encode the input
+  -h, --help    show CLI help
+
+ALIASES
+  $ awsm b64
+```
+
+_See code: [src/commands/base64.ts](https://github.com/awsmio/awsm-cli/blob/v0.0.1/src/commands/base64.ts)_
 
 ## `awsm help [COMMAND]`
 
