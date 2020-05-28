@@ -19,7 +19,7 @@ $ npm install -g awsm-cli-tools
 $ awsm COMMAND
 running command...
 $ awsm (-v|--version|version)
-awsm-cli-tools/0.0.1 darwin-x64 node-v12.14.1
+awsm-cli-tools/0.0.2 darwin-x64 node-v12.14.1
 $ awsm --help [COMMAND]
 USAGE
   $ awsm COMMAND
@@ -43,7 +43,7 @@ OPTIONS
   -h, --help  show CLI help
 ```
 
-_See code: [src/commands/base.ts](https://github.com/awsmio/cli-tools/blob/v0.0.1/src/commands/base.ts)_
+_See code: [src/commands/base.ts](https://github.com/awsmio/cli-tools/blob/v0.0.2/src/commands/base.ts)_
 
 ## `awsm base64 INPUT`
 
@@ -62,7 +62,7 @@ ALIASES
   $ awsm b64
 ```
 
-_See code: [src/commands/base64.ts](https://github.com/awsmio/cli-tools/blob/v0.0.1/src/commands/base64.ts)_
+_See code: [src/commands/base64.ts](https://github.com/awsmio/cli-tools/blob/v0.0.2/src/commands/base64.ts)_
 
 ## `awsm crypto INPUT`
 
@@ -80,7 +80,7 @@ ALIASES
   $ awsm sha1
 ```
 
-_See code: [src/commands/crypto.ts](https://github.com/awsmio/cli-tools/blob/v0.0.1/src/commands/crypto.ts)_
+_See code: [src/commands/crypto.ts](https://github.com/awsmio/cli-tools/blob/v0.0.2/src/commands/crypto.ts)_
 
 ## `awsm help [COMMAND]`
 
